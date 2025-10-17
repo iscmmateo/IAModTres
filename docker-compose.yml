@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    image: auth-api-fastapi:latest
+    container_name: auth_api
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - .\data:/app/data
+    restart: unless-stopped

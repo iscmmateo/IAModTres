@@ -1,0 +1,12 @@
+# Lint
+ruff==0.6.9
+
+# SAST
+bandit==1.7.9
+
+# Auditoría de dependencias
+pip-audit==2.7.3
+
+# Test helpers
+pytest-asyncio==0.24.0
+pytest-cov==5.0.0
